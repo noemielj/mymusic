@@ -1,0 +1,142 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  color: white;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('/background.png');
+  background-size: cover;
+}
+
+.headerBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  margin: 20px;
+}
+
+.headerBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  margin: 20px;
+  margin-bottom: 40px;
+}
+
+.title {
+  letter-spacing: 15px;
+  font-size: 24px;
+}
+
+.textBold {
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.icon {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  opacity: 0.3;
+}
+
+.iconsSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 10vw;
+}
+
+.buttonLight {
+  width: 150px;
+  height: 45px;
+  margin: 20px;
+  border-radius: 6px;
+  border: none;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: white;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+.buttonLight:hover {
+  background-color: black;
+  color: white;
+  border: 2px white solid;
+}
+
+.buttonDark {
+  width: 150px;
+  height: 45px;
+  margin: 20px;
+  border-radius: 6px;
+  border: 1px white solid;
+  background-color: transparent;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+.buttonDark:hover {
+  background-color: white;
+  color: black;
+  border: 2px white solid;
+  opacity: 0.3;
+}
+
+.divColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 60vh;
+  width: 100vw;
+  background-color: lightgoldenrodyellow;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20vh;
+  width: 100vw;
+  background-color: black;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.link {
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.link:hover {
+  opacity: 0.3;
+}

@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header {
+    background-position: center center;
+    background-image: url('assets/background.jpg');
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+    padding-top: 25%;
+}
+.logo {
+    padding: auto;
+}
+
+h1 {
+    color : white;
+}
+
+.galaxy-image {
+    width: 150px;
+    height: 150px;
+    float: left;
+    /* box-sizing: border-box;  */
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+.row {
+    float: left;
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 20px;
+    width: 70%;
+    height: 20vh;
+    /*align-items: center;  */
+    padding: 50px;
+    /*border: 1px solid red */
+}
+ #container {
+    background-color: rgb(27, 27, 99);
+    height: 150vh;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-right: 20px; 
+ }

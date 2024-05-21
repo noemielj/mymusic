@@ -1,0 +1,52 @@
+.main {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    margin: 40px;
+  }
+  
+  .buttonDark {
+    width: 150px;
+    height: 45px;
+    border-radius: 6px;
+    border: 1px white solid;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition-duration: 1s;
+  }
+  
+  .buttonDark:hover {
+    color: black;
+    background-color: white;
+    border: 2px white solid;
+    opacity: 0.4;
+    border: 1px black solid;
+  }
+  
+  .divColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .textBold {
+    font-weight: 600;
+    font-size: 24px;
+  }
+  
+  .textThin {
+    font-size: 12px;
+  }
+  
+  .image {
+    width: 1000px;
+  }

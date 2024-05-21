@@ -1,0 +1,5 @@
+function displayWeather(route) {
+    console.log(`weather called ${route}`);
+}
+
+module.exports = { displayWeather };
